@@ -3,7 +3,7 @@
 This uses some supporting plugins:
 - React Libraries (Main Platform): 'react', 'react-dom'.
 - React Router V4 (React Plugin): 'react-router', 'react-router-dom'.
-- RXJS - Reactive Extensions for JavaScript (handle side effect: asynchronous, timer, share data between components state management...
+- RXJS - Reactive Extensions for JavaScript (handle side effect: asynchronous, timer, share data between components - state management...
 - Webpack (Bundling Module support to build project): 'webpack'
 - SASS - Pre-Processor: 'sass', 'node-sass'
 - Library UI: 'react-bootstrap',
@@ -108,7 +108,7 @@ peachtree-bank
 
  <div style="page-break-before: always;"></div>
 
-## 3. Basic knowledge and how to apply to this project - chanel
+## 3. Basic knowledge and how to apply to this project - chanel - state management
   ### 3.1: Create a chanel - to share data between components - we use Subject in RXJS to emit values to be multi-casted to many Observers.
   - To define a chanel.
   ```ts
