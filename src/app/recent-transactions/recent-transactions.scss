@@ -1,0 +1,22 @@
+
+@import '../shared/style-common.scss';
+
+.transactions-container {
+   width: 80%;
+   background-color: $bg-primary;
+   box-shadow: $box-shadow;
+
+   .title {
+      @include title-bar(50px);
+
+      .svg-inline--fa {
+         float: left;
+         margin: 13px 0px 13px 20px;
+         opacity: 0.7;
+      }
+   }
+
+   .table {
+      padding: 20px;
+   }
+}

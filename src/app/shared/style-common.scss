@@ -1,0 +1,64 @@
+$bg-header: #0c8397;
+$bg-primary: white;
+$bg-secondary: black;
+$color-primary-light: white;
+$color-primary-dark: black;
+$bg-primary-button: rgba(238, 112, 51, 1);
+
+$border-primary: 1px solid #E7EAF1;
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+$line-height-item: 50px;
+
+/********* Start Functions *********/
+
+@mixin title-bar($line-height: 40px) {
+    background-color: $bg-header;
+    line-height: $line-height;
+    text-align: center;
+    font-size: 150%;
+    color: $color-primary-light;
+    vertical-align: middle !important;
+    font-family: 'Kanit', sans-serif;
+ }
+
+/********* End Functions *********/
+
+
+/********* Start Extends *********/
+
+/********* End Extends *********/
+
+
+/********* Start Classes Global *********/
+
+.modal-header {
+    background-color: $bg-header;
+    color: $color-primary-light;
+    font-weight: bold;
+
+    .close {
+        color: $color-primary-light;
+    }
+}
+
+.modal.modal-static .modal-dialog {
+    transform: none;
+}
+
+.modal-footer {
+    button {
+        font-weight: bold;
+        width: 25%;
+    }
+}
+
+.required-msg {
+    color: red;
+    position: absolute;
+    display: flex;
+}
+
+/********* End Classes Global *********/
+
+
+

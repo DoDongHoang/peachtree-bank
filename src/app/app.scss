@@ -1,0 +1,42 @@
+@import '~bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('assets/fonts/Kanit-Thin.ttf') format('truetype');
+}
+
+html, body {
+  background-color: inherit;
+  font-family: Helvetica, Arial, sans-serif, "Helvetica Neue";
+  font-size: 9pt;
+
+  .header-container {
+    padding: 1% 1% 1% 12%;
+    border-bottom: 2px solid rgba(238, 112, 51, 1);
+    min-height: 10vh;
+  }
+
+  .body-container {
+    background: url('assets/images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 90vh;
+
+    .main-container {
+      display: flex;
+      padding: 2% 0% 0% 0%;
+      
+      .new-transfer {
+        flex: 2;
+      }
+  
+      .recent-transactions {
+        flex: 4;
+      }
+    }
+  }
+
+}
+
