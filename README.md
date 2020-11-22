@@ -188,12 +188,12 @@ peachtree-bank
 #### View more: 
 - Using RXJS: <span style="color:blue">https://www.learnrxjs.io/</span> <br>
 
-## 6. Run project
+## 4. Run project
 1. npm run start (port 4200)
 2. Start Nodejs server (default port 4200, Can change port at the webpack devServer port).
 3. Open web browser with url: http://your_ip
 
-## 7. Note commit in project
+## 5. Note commit in project
 ### Don't commit these paths folder and file in the project. Because, they will auto generate when build<br/>
  \peachtree-bank\target<br/>
  \peachtree-bank\build<br/>
