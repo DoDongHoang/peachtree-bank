@@ -2,7 +2,7 @@
   "name": "peachtree-bank",
   "version": "0.0.0",
   "private": true,
-  "homepage": "http://nhutlbuit.github.io/peachtree-bank",
+  "homepage": "http://DoDongHoang.github.io/peachtree-bank",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
